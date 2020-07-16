@@ -53,7 +53,7 @@ void MainWindow::on_pushButton_clicked()
     ui->lineEdit_14->setText(QString::number(f));
     ui->lineEdit_15->setText(QString::number(g));
 
-    //tampilan harga kamar
+    //Tampilan harga kamar
     combo=ui->comboBox->currentText();
     ui->lineEdit_16->setText(combo);
     if (combo == "Delux")(
