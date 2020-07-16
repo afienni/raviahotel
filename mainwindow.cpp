@@ -67,7 +67,7 @@ void MainWindow::on_pushButton_clicked()
 
     else (ui->lineEdit_16->setText("Rp. 1.250.000"));
 
-    //total harga 
+    //total harga
     if (combo == "Delux")(ui->lineEdit->setText(QString(text)+(QString::number(f*500000*g))));
 
     else if (combo == "Family")(ui->lineEdit->setText(QString(text)+(QString::number(f*650000*g))));
